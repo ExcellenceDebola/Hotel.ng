@@ -1,0 +1,900 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.first{
+    
+    background-image: url(../image/v7-homepage1.jpg);
+    background-size: cover;
+    height:400px;
+}
+body {
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue;
+}
+
+nav{
+    background-color:#00aeff;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.line_div_1{
+    /* border-left: 6px; */
+    height: 58px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+.line_div_2{
+    /* border-left: 6px; */
+    height: 58px;
+    border-width: 1px;
+    margin-left:-3px;
+    border-color: white;
+    border-style: solid;
+}
+.line_div_3{
+    margin-left:-80px;
+    height: 58px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+.inner-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.whatsapp{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right:20px;
+    border-radius: 15px;
+}
+.whatsapp_2{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: -230px;
+    margin-top:13px;
+}
+.nigeria_logo{
+    width:40px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.account_logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-right:10px;
+    margin-left:25px;
+}
+
+nav p>a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 40px;
+    float: left;
+    text-indent: 30px;
+    line-height: 55px;
+    justify-content: center;
+}
+
+p+ul{
+    float: left;
+    list-style: none;
+    padding-left:600px;
+    line-height: 50px;
+    display: flex;
+    color: white;
+    font-family:  Helvetica Neue;
+    
+}
+
+.number{
+    margin-left:20px;
+    /* background-color: white; */
+    width: 180px;
+}
+.nigeria{
+    float: left;
+    list-style: none;
+    display: flex;
+    color: white;
+    line-height: 70px;
+    /* margin-left: 40px; */
+    padding-left: 50px;
+}
+ul .sign_in{
+    background-color:#00aeff;
+    color: white;
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+ul .sign_in>a{
+    color: white;
+}
+ul .currency{
+    background-color: #00aeff;
+    width: 220px;
+    background-size: cover;
+    border: 1px #00aeff solid;
+    margin-left:-10px;
+}
+.currency>a{
+    color: white;
+    background-color: #00aeff;
+    border: 1px #00aeff solid;
+    margin-left:10px;
+    
+}
+.N_logo{
+padding-left: 10px;
+font-size: larger;
+margin-top:-5px;
+}
+
+.nigeria .N_logo>.ul_hover_2{
+    display:none;
+}
+nav .nigeria .N_logo:hover .ul_hover_2{
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius:5px;
+    width:200px;
+    height: 180px;
+    line-height: 1.5rem;
+    margin-left: -210px;
+    margin-top: -10px;
+    text-align:start;
+}
+nav .nigeria .N_logo .ul_hover_2 a:hover{
+    color:lightgray
+}
+.account{
+    display: flex;
+    list-style: none;
+    color: white;
+    line-height: 70px;
+    padding-left: 100px;
+    margin-right: -20px;
+}
+.account_ng{
+    margin-top:-5px;
+}
+.account .account_ng>.ul_hover_3{
+    display: none;
+    color: black;
+    margin-top: -10px;
+    margin-left: -90px;
+    line-height: 1rem;
+    background-color: white;
+}
+
+nav .account .account_ng:hover .ul_hover_3{
+
+    display: block;
+    margin-top: -5px;
+    background-color: white;
+    padding:10px;
+    border-radius:5px;
+    width: 180px;
+    margin-left:-100px;
+}
+
+nav ul li .link_2{
+    float: left;
+    margin-top:15px;
+    background-color:#084482;
+    height: 35px;
+    width: 220px;
+    border-radius: 20px;
+    line-height:0.5rem;
+    color: white;
+}
+.bb>a{
+    color: white;
+    margin-left: 40px;
+}
+.aa{
+    align-items: center;
+    line-height: 0.5rem;
+    margin-left:35px;
+    color:#00aeff;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+ul li>.naira{
+    float: left;
+    margin-bottom:35px;
+
+}
+nav ul li .ul_hover{
+    position: relative;
+    display: none;
+    background-color: white;
+    padding: 10px;
+    border-radius:5px;
+    width:210px;
+    height: 180px;
+    line-height: 2rem;
+    margin-left: 20px;
+}
+
+nav ul li:hover .ul_hover{         
+    display: block;
+   justify-content: center;
+    width: 150px;
+   
+}
+
+nav ul li ul li{
+    list-style: none;
+    position: relative;
+}
+nav ul li ul li>a{
+    color: black;
+    
+}
+nav ul li .ul_hover li>a:hover{
+    background-color:lightgray;
+}
+
+a{
+    text-decoration: none;
+}
+
+.middle_part{
+    text-align: center;
+    color: white;
+    padding: 15rem;
+    font: 150px;
+    font-size:22px;
+    font-family: Arial;
+    margin-top:-45px;
+}
+
+section.down_part{
+    background-color: white;
+    height:100vh;
+}
+
+.pre_down{
+    background-color:white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hotels h5:hover{
+    background-color: cornflowerblue;
+}
+
+.hotels h5{
+    color:white;
+    background-color:#00aeff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.search_form{
+    padding: 5px;
+}
+.search_in{
+    width: 1000px;
+    height: 90px;
+    background-color: white; 
+    display: flex;
+    margin: 50px;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    margin-top: -60px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+.form_1 input{
+    width:500px;
+    height: 40px;
+    padding-left:30px;
+}
+
+.form_2 input{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.button_down{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: white;
+    margin: 40px;
+
+}
+
+div.button_down a button{
+    width: 135px;
+    height: 80px;
+    border-radius:5px;
+    background-color: white;
+    margin: 15px;
+    border-width: 2px;
+    border-color:#00aeff;
+}
+a button>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #00aeff;
+}
+a button>h5{
+    color: gray;
+}
+a>button{
+    color:#00aeff ;
+}
+a button h1:hover{
+    color: white;
+}
+div.button_down a button>h5:hover{
+    color: white;
+}
+
+div.button_down a button:hover{
+background-color: #00aeff;
+column-gap: 10px;
+color:white; 
+border-color: #00aeff;
+}
+.mother_photo_div_1{
+    background-color: white;
+    display: flex;
+    justify-content:center;
+}
+.image_down_1{
+    width: 300px;
+    height: 200px;
+}
+.sub_mother div>.image_down_1 :hover{
+    color: black;
+    width: 300px;
+    height: 200px;
+}
+
+.pics_text_1{
+    /* padding-top:-20px; */
+    margin-top: 50px;
+}
+
+.mother_photo_div_2{
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    padding-bottom: 40px;
+}
+.sub_mother{
+    background-color: white;
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius:3px;
+    /* padding-bottom:10px; */
+}
+.sub_mother .hotels_bed div>a{
+    /* padding-top:-100px; */
+    padding-left: 10px;
+    line-height: 2rem;
+    color: gray;
+    font-size:15px ;
+}
+.sub_mother .hotels_bed div>.big{
+    font-size: 20px;
+    color: #00aeff;
+}
+.pre_down .text_div_3{
+    background-color: white;
+    display:block;
+    justify-content: center;
+    padding-right: 30px;
+}
+.body_2{
+    background-color: white;
+}
+.text_div{
+    background-color: white;
+    text-align: center;
+    line-height: 2rem;
+}
+.text_div_1{
+    background-color: white;
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 40px;
+}
+.text_div_2{
+    background-color: white;
+    text-align: center;
+    line-height: 2rem;
+    padding-top:40px;
+}
+.line_horizontal{
+    width: 40px;
+    height: 2px;
+    border: 1px solid #00aeff;
+    background-color: #00aeff;
+    margin-left:650px;
+    margin-top: 10px;
+
+}
+.cities_1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.cities_1>div{
+    background-image: url(../image/road\ 1.jpg);
+    border: 1px solid gray;
+    border-radius:3px;
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+    text-align: center;
+    margin:15px;
+    opacity: 0.9;
+}
+.cities_1 div>li{
+    display: none;
+    border: 1px black solid;
+    background-color: black;
+    opacity:0.9;
+   
+}
+
+.cities_1 div li>ul{
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 150px;
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+   
+}
+.cities_1 div li>.calabar{
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width:170px;
+    margin-left:50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cities_2 div li>.PortHarcourt{
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width:190px;
+    margin-left:45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: small;
+}
+.cities_1 div li ul>a{
+    color: white;
+}
+.cities_1 div li>ul:hover{
+    background-color: #00aeff;
+    width: 155px;
+    transition: all 0.2s ease-in;
+}
+@keyframes slide {
+    from{
+        visibility:hidden;
+        height: 0px;
+       
+    }
+    to{
+        visibility:visible;
+        height:90px;
+    }
+}
+.cities_1 div:hover li{
+    display:block ;
+    width:300px;
+    height:90px;
+    color: #00aeff;
+    margin-top:0px;
+    animation-name: slide;
+    animation-duration: 0.3s;
+    transition: 0.2 ease;
+}
+
+.class_h2{
+    margin-top:65px ;
+    line-height: 3rem;
+}
+.cities_1 div .class_h2 div>h2{
+    text-align: center;
+    color: white;
+   
+}
+.cities_2{
+    display: flex;
+    justify-content: center;
+    background-color: white;   
+}
+.cities_2 div .class_h2 div>h2
+{
+    text-align: center;
+    color: white;
+}  
+.cities_2 div>li{
+    border: 1px black solid;
+    background-color: black;
+    opacity:0.9;
+    
+}
+.cities_2 div>li{
+    display: none;
+}
+.cities_2 div li>ul{
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 150px;
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+  
+    
+   
+}
+.cities_2 div li ul>a{
+    color: white;
+}
+.cities_2 div li>ul:hover{
+    background-color: #00aeff;
+    width: 155px;
+    transition: all 0.2s ease-in;
+
+}
+.cities_2 div:hover li{
+    display:block ;
+    width:300px;
+    height:90px;
+    color: #00aeff;
+    margin-top:0px;
+    animation-name: slide;
+    animation-duration: 0.3s;
+    transition: 0.2 ease;
+    
+}
+.cities_2>div{
+    background-image: url(../image/road\ 1.jpg);
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius:3px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    margin: 15px;
+    opacity: 0.9;
+}
+
+.link_link{
+    z-index: 1;
+}
+.down_news{
+    display: flex;
+    background-color: white;
+    justify-content:center;
+    /* column-width: 15em; */
+    column-gap:2em;
+    margin-left:170px;
+    margin-right:170px;
+}
+.down_news div ul>li{
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    /* margin:30px; */
+}
+.down_news div ul li>a{
+    color: grey;
+
+}
+.down_news div ul li a>h2{
+    color: #00aeff;
+    font-size:large;
+}
+
+.down_news div>ul{
+    margin-bottom:15px;
+    margin-top: 20px;
+}
+.email{
+    text-align: center;
+    /* justify-items: center; */
+    height: 200px;
+    background-color:lightgray ;
+    line-height:40px;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+.gmail_form{
+    display: flex;
+    justify-content: center;
+}
+.gmail_enter form>input{
+height: 40px;
+width: 430px;
+padding-left: 15px;
+border-radius: 4px;
+border-color: #00aeff;
+border-width: 1px;
+}
+.Subscribe>button{
+height: 40px;
+width: 120px;
+color: white;
+background-color: #00aeff;
+margin-left: 10px;
+border-color: #00aeff;
+border-radius: 4px;
+}
+.Subscribe>button:hover{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+.email_address{
+    font-size: large;
+    color: gray;
+}
+.we_line{
+    padding-top:100px;
+}
+.we_div{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.web{
+    width: 10rem;
+    height: 10rem;
+    color: gray;
+    margin-top:-30px;
+}
+.abc a>div{
+    display:flex;
+    justify-content:space-between;
+}
+.abc a div>div{
+    background-color:gray;
+    margin:3px;
+    border: 3px gray solid;
+    color: white;
+    font-size: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.web_logo{
+    display: flex;
+    justify-content:space-around;
+    align-content:center ;
+    margin-top: 20px;
+    color: grey;
+    margin-left:170px;
+    margin-right:170px;
+    margin-top: 50px;
+
+}
+.forbes>a{
+    color: gray;
+    /* font-size:50px; */
+    font-size:60px;
+    
+}
+.text_div_4{
+    background-color: white;
+    text-align: center;
+    line-height: 3rem;
+    padding-top:40px;
+    font-size: larger;
+   
+}
+.button_button{
+height: 40px;
+width: 170px;
+background-color: #00aeff;
+margin-left: 10px;
+border-color: #00aeff;
+color: white;
+border-radius: 4px;
+margin-top: 20px;
+}
+.phone_image{
+    background-color:#f4f9fc;
+    border: 2px solid #f4f9fc;
+    height: 550px;
+    margin-top: 100px;
+    display: flex;
+    /* margin-bottom: 10px; */
+}
+.phone{
+    padding-top:40px;
+}
+.phone_text{
+    padding-top: 200px;
+    margin-left: 40px;
+}
+.get{
+    font-size:60px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornflowerblue ;
+}
+.download{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right:50px ;
+}
+.book{
+    font-size: 20px;
+    color:gray;
+    margin-right:50px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.google_image{
+    width: 180px;
+    height: 50px;
+}
+.phone>img{
+    background-size: cover;
+    height:440px;
+    margin-top:70px;
+    margin-left:200px;
+}
+.key{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:30px;
+    margin-right:20px;
+   
+}
+.foot{
+    background-color:#084482;
+    height: 100px;
+    width: 100%;
+    border: 2px #084482 solid;
+    display: flex;
+    justify-content:center;
+    
+}
+.form_unlock>input{
+    border: white ;
+    width: 250;
+    height: 36;
+    margin-top:30px;
+    text-align: center;
+    border:solid 1px white;
+}
+.unlock{
+    height: 36px;
+    width:150px;
+    margin-top: 30px;
+    border: #00aeff solid;
+    background-color: #00aeff;
+}
+.email_unlock{
+    margin-right:40px;
+    margin-top: 30px;
+}
+.email_unlock_1{
+font-size: 20px;
+color: white;
+}
+.email_unlock_2{
+font-size: 15px;
+color: #00aeff;
+margin-bottom:-10px;
+}
+.foot_main{
+    display: flex;
+    justify-content:space-between;
+    padding-right:200px ;
+    padding-left: 200px;
+    align-content:center;
+    padding-top: 20px;
+    height: 100px;
+    color:gray;
+}
+.foot_main_1{
+    display: flex;
+    justify-content:space-between;
+    padding-right:190px ;
+    padding-left: 190px;
+    align-content:center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.foot_main_1 div ul li>a{
+    color: #00aeff;
+    margin-right: 20px;
+}
+.foot_main_2{
+    margin-right: 40px;
+}
+.foot_main_1 ul>li{
+    list-style: none;
+}
+.down_line{
+    align-content: center;
+    width: 1000px;
+    height: 1px;
+    background-color:grey;
+    margin-left: 170px;
+    margin-top: -80px; 
+    
+}
+.down_line_line{
+    align-content: center;
+    width: 1000px;
+    height: 1px;
+    background-color:grey;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+.top_hotels{
+    margin-right: 30px;
+}
+.key_1{
+    width: 20px;
+    height: 20px;
+    border-radius:2px;
+    margin: 5px;
+   
+}
+.foot_main_3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 20px;
+    color: grey;
+}
+.foot_main_3 div i{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: grey;
+}
